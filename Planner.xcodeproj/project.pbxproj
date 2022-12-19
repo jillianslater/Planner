@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A61B6FC9293D35C0007DBCD1 /* NewChecklistItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61B6FC8293D35C0007DBCD1 /* NewChecklistItemView.swift */; };
+		A61B6FCB293D4287007DBCD1 /* NewTimeItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61B6FCA293D4287007DBCD1 /* NewTimeItemView.swift */; };
+		A65CDF6F29315B0C0001B989 /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65CDF6E29315B0C0001B989 /* WeekView.swift */; };
+		A65CDF7229315BDF0001B989 /* WeekDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65CDF7129315BDF0001B989 /* WeekDayView.swift */; };
+		A65CDF7429315D780001B989 /* WeekDayHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65CDF7329315D780001B989 /* WeekDayHeaderView.swift */; };
+		A65CDF79293166040001B989 /* DayLeftRightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65CDF78293166040001B989 /* DayLeftRightView.swift */; };
+		A65CDF7B293167360001B989 /* WeekLeftRightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65CDF7A293167360001B989 /* WeekLeftRightView.swift */; };
+		A65CDF7F29316DF20001B989 /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65CDF7E29316DF20001B989 /* MonthView.swift */; };
+		A6686DF72929A3B900641FB2 /* PlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6686DF62929A3B900641FB2 /* PlannerApp.swift */; };
+		A6686DF92929A3B900641FB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6686DF82929A3B900641FB2 /* ContentView.swift */; };
+		A6686DFB2929A3BC00641FB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6686DFA2929A3BC00641FB2 /* Assets.xcassets */; };
+		A6686DFE2929A3BC00641FB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6686DFD2929A3BC00641FB2 /* Preview Assets.xcassets */; };
+		A66D6D71293143D0001EE84C /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66D6D70293143D0001EE84C /* DayView.swift */; };
+		A66D6D7629314D1A001EE84C /* DayViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66D6D7529314D1A001EE84C /* DayViewHeader.swift */; };
+		A66D6D7929315085001EE84C /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66D6D7829315085001EE84C /* MainTabView.swift */; };
+		A67D1EEF2936E7040013A016 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67D1EEE2936E7040013A016 /* Section.swift */; };
+		A67D1EF12936E7140013A016 /* SectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67D1EF02936E7140013A016 /* SectionItem.swift */; };
+		A67D1EF42936ED140013A016 /* PlannerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67D1EF32936ED140013A016 /* PlannerData.swift */; };
+		A67D1EF62936ED5D0013A016 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67D1EF52936ED5D0013A016 /* Day.swift */; };
+		A6CF46C429358060004C08E3 /* NewSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CF46C329358060004C08E3 /* NewSectionView.swift */; };
+		A6D2014929464E0B007867A6 /* MonthColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D2014829464E0B007867A6 /* MonthColorView.swift */; };
+		A6D2014C29465162007867A6 /* MonthColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D2014B29465162007867A6 /* MonthColor.swift */; };
+		A6D4E6BB2940209D001C7B8A /* DeleteEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D4E6BA2940209D001C7B8A /* DeleteEventView.swift */; };
+		A6FA436E2933E669005D3E9C /* ChecklistEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FA436D2933E669005D3E9C /* ChecklistEventView.swift */; };
+		A6FA43712933E6F0005D3E9C /* ChecklistDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FA43702933E6F0005D3E9C /* ChecklistDayView.swift */; };
+		A6FA43732933E7CD005D3E9C /* StarEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FA43722933E7CD005D3E9C /* StarEditView.swift */; };
+		A6FA43752933E89B005D3E9C /* ChecklistWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FA43742933E89B005D3E9C /* ChecklistWeekView.swift */; };
+		A6FA43772933E947005D3E9C /* TimeEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FA43762933E946005D3E9C /* TimeEventView.swift */; };
+		A6FA43792933E984005D3E9C /* TimeEventDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FA43782933E984005D3E9C /* TimeEventDayView.swift */; };
+		A6FA437B2933EB8E005D3E9C /* TimeEventWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FA437A2933EB8E005D3E9C /* TimeEventWeekView.swift */; };
+		A6FA437D2933EEC0005D3E9C /* MonthLeftRightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FA437C2933EEC0005D3E9C /* MonthLeftRightView.swift */; };
+		A6FA437F2933F0E1005D3E9C /* MonthDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FA437E2933F0E1005D3E9C /* MonthDayView.swift */; };
+		A6FA43812933F338005D3E9C /* MonthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FA43802933F338005D3E9C /* MonthHeaderView.swift */; };
+		A6FE4CEB294167AE00B0138D /* WeekdayColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FE4CEA294167AE00B0138D /* WeekdayColor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A61B6FC8293D35C0007DBCD1 /* NewChecklistItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChecklistItemView.swift; sourceTree = "<group>"; };
+		A61B6FCA293D4287007DBCD1 /* NewTimeItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTimeItemView.swift; sourceTree = "<group>"; };
+		A65CDF6E29315B0C0001B989 /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
+		A65CDF7129315BDF0001B989 /* WeekDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDayView.swift; sourceTree = "<group>"; };
+		A65CDF7329315D780001B989 /* WeekDayHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDayHeaderView.swift; sourceTree = "<group>"; };
+		A65CDF78293166040001B989 /* DayLeftRightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayLeftRightView.swift; sourceTree = "<group>"; };
+		A65CDF7A293167360001B989 /* WeekLeftRightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekLeftRightView.swift; sourceTree = "<group>"; };
+		A65CDF7E29316DF20001B989 /* MonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
+		A6686DF32929A3B900641FB2 /* Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6686DF62929A3B900641FB2 /* PlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerApp.swift; sourceTree = "<group>"; };
+		A6686DF82929A3B900641FB2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A6686DFA2929A3BC00641FB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6686DFD2929A3BC00641FB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A66D6D70293143D0001EE84C /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		A66D6D7529314D1A001EE84C /* DayViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewHeader.swift; sourceTree = "<group>"; };
+		A66D6D7829315085001EE84C /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		A67D1EEE2936E7040013A016 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		A67D1EF02936E7140013A016 /* SectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionItem.swift; sourceTree = "<group>"; };
+		A67D1EF32936ED140013A016 /* PlannerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerData.swift; sourceTree = "<group>"; };
+		A67D1EF52936ED5D0013A016 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		A6CF46C329358060004C08E3 /* NewSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSectionView.swift; sourceTree = "<group>"; };
+		A6D2014829464E0B007867A6 /* MonthColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthColorView.swift; sourceTree = "<group>"; };
+		A6D2014B29465162007867A6 /* MonthColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthColor.swift; sourceTree = "<group>"; };
+		A6D4E6BA2940209D001C7B8A /* DeleteEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteEventView.swift; sourceTree = "<group>"; };
+		A6FA436D2933E669005D3E9C /* ChecklistEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistEventView.swift; sourceTree = "<group>"; };
+		A6FA43702933E6F0005D3E9C /* ChecklistDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistDayView.swift; sourceTree = "<group>"; };
+		A6FA43722933E7CD005D3E9C /* StarEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarEditView.swift; sourceTree = "<group>"; };
+		A6FA43742933E89B005D3E9C /* ChecklistWeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistWeekView.swift; sourceTree = "<group>"; };
+		A6FA43762933E946005D3E9C /* TimeEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeEventView.swift; sourceTree = "<group>"; };
+		A6FA43782933E984005D3E9C /* TimeEventDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeEventDayView.swift; sourceTree = "<group>"; };
+		A6FA437A2933EB8E005D3E9C /* TimeEventWeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeEventWeekView.swift; sourceTree = "<group>"; };
+		A6FA437C2933EEC0005D3E9C /* MonthLeftRightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthLeftRightView.swift; sourceTree = "<group>"; };
+		A6FA437E2933F0E1005D3E9C /* MonthDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthDayView.swift; sourceTree = "<group>"; };
+		A6FA43802933F338005D3E9C /* MonthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthHeaderView.swift; sourceTree = "<group>"; };
+		A6FE4CEA294167AE00B0138D /* WeekdayColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayColor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6686DF02929A3B900641FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A65CDF6C29315ADF0001B989 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A65CDF6E29315B0C0001B989 /* WeekView.swift */,
+				A65CDF7329315D780001B989 /* WeekDayHeaderView.swift */,
+				A65CDF7A293167360001B989 /* WeekLeftRightView.swift */,
+				A65CDF7129315BDF0001B989 /* WeekDayView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A65CDF6D29315AE80001B989 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A6FE4CEA294167AE00B0138D /* WeekdayColor.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A65CDF7C29316DAE0001B989 /* Month */ = {
+			isa = PBXGroup;
+			children = (
+				A6D2014A29465150007867A6 /* ViewModels */,
+				A65CDF7D29316DE00001B989 /* View */,
+			);
+			path = Month;
+			sourceTree = "<group>";
+		};
+		A65CDF7D29316DE00001B989 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A65CDF7E29316DF20001B989 /* MonthView.swift */,
+				A6FA437C2933EEC0005D3E9C /* MonthLeftRightView.swift */,
+				A6FA437E2933F0E1005D3E9C /* MonthDayView.swift */,
+				A6FA43802933F338005D3E9C /* MonthHeaderView.swift */,
+				A6D2014829464E0B007867A6 /* MonthColorView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A6686DEA2929A3B900641FB2 = {
+			isa = PBXGroup;
+			children = (
+				A6686DF52929A3B900641FB2 /* Planner */,
+				A6686DF42929A3B900641FB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6686DF42929A3B900641FB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6686DF32929A3B900641FB2 /* Planner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6686DF52929A3B900641FB2 /* Planner */ = {
+			isa = PBXGroup;
+			children = (
+				A66D6D6B2931428B001EE84C /* Extensions */,
+				A66D6D6A29314289001EE84C /* Model */,
+				A66D6D6929314286001EE84C /* Service */,
+				A66D6D6829314282001EE84C /* Core */,
+				A6686DF62929A3B900641FB2 /* PlannerApp.swift */,
+				A6686DF82929A3B900641FB2 /* ContentView.swift */,
+				A6686DFA2929A3BC00641FB2 /* Assets.xcassets */,
+				A6686DFC2929A3BC00641FB2 /* Preview Content */,
+			);
+			path = Planner;
+			sourceTree = "<group>";
+		};
+		A6686DFC2929A3BC00641FB2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A6686DFD2929A3BC00641FB2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A66D6D6829314282001EE84C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A66D6D6C293142FD001EE84C /* Components */,
+				A66D6D6D29314308001EE84C /* Day */,
+				A66D6D7A29315A72001EE84C /* Week */,
+				A65CDF7C29316DAE0001B989 /* Month */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A66D6D6929314286001EE84C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A66D6D6A29314289001EE84C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A66D6D6B2931428B001EE84C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A66D6D6C293142FD001EE84C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A67D1EF22936ED090013A016 /* Data */,
+				A6FA436C2933E600005D3E9C /* Event */,
+				A66D6D7729315071001EE84C /* MainTab */,
+				A66D6D72293144F7001EE84C /* Sections */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A66D6D6D29314308001EE84C /* Day */ = {
+			isa = PBXGroup;
+			children = (
+				A66D6D6F29314394001EE84C /* View */,
+				A66D6D6E29314389001EE84C /* ViewModels */,
+			);
+			path = Day;
+			sourceTree = "<group>";
+		};
+		A66D6D6E29314389001EE84C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A66D6D6F29314394001EE84C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A66D6D7529314D1A001EE84C /* DayViewHeader.swift */,
+				A66D6D70293143D0001EE84C /* DayView.swift */,
+				A65CDF78293166040001B989 /* DayLeftRightView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A66D6D72293144F7001EE84C /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				A67D1EED2936E6E10013A016 /* View Models */,
+				A6FA43702933E6F0005D3E9C /* ChecklistDayView.swift */,
+				A6FA43742933E89B005D3E9C /* ChecklistWeekView.swift */,
+				A6FA43782933E984005D3E9C /* TimeEventDayView.swift */,
+				A6FA437A2933EB8E005D3E9C /* TimeEventWeekView.swift */,
+				A6CF46C329358060004C08E3 /* NewSectionView.swift */,
+				A61B6FC8293D35C0007DBCD1 /* NewChecklistItemView.swift */,
+				A61B6FCA293D4287007DBCD1 /* NewTimeItemView.swift */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		A66D6D7729315071001EE84C /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				A66D6D7829315085001EE84C /* MainTabView.swift */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		A66D6D7A29315A72001EE84C /* Week */ = {
+			isa = PBXGroup;
+			children = (
+				A65CDF6C29315ADF0001B989 /* View */,
+				A65CDF6D29315AE80001B989 /* ViewModels */,
+			);
+			path = Week;
+			sourceTree = "<group>";
+		};
+		A67D1EED2936E6E10013A016 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				A67D1EEE2936E7040013A016 /* Section.swift */,
+				A67D1EF02936E7140013A016 /* SectionItem.swift */,
+				A67D1EF52936ED5D0013A016 /* Day.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		A67D1EF22936ED090013A016 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A67D1EF32936ED140013A016 /* PlannerData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A6D2014A29465150007867A6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A6D2014B29465162007867A6 /* MonthColor.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A6FA436C2933E600005D3E9C /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				A6FA436D2933E669005D3E9C /* ChecklistEventView.swift */,
+				A6FA43722933E7CD005D3E9C /* StarEditView.swift */,
+				A6FA43762933E946005D3E9C /* TimeEventView.swift */,
+				A6D4E6BA2940209D001C7B8A /* DeleteEventView.swift */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6686DF22929A3B900641FB2 /* Planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6686E012929A3BC00641FB2 /* Build configuration list for PBXNativeTarget "Planner" */;
+			buildPhases = (
+				A6686DEF2929A3B900641FB2 /* Sources */,
+				A6686DF02929A3B900641FB2 /* Frameworks */,
+				A6686DF12929A3B900641FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Planner;
+			productName = Planner;
+			productReference = A6686DF32929A3B900641FB2 /* Planner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6686DEB2929A3B900641FB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					A6686DF22929A3B900641FB2 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = A6686DEE2929A3B900641FB2 /* Build configuration list for PBXProject "Planner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6686DEA2929A3B900641FB2;
+			productRefGroup = A6686DF42929A3B900641FB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6686DF22929A3B900641FB2 /* Planner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6686DF12929A3B900641FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6686DFE2929A3BC00641FB2 /* Preview Assets.xcassets in Resources */,
+				A6686DFB2929A3BC00641FB2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6686DEF2929A3B900641FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65CDF7F29316DF20001B989 /* MonthView.swift in Sources */,
+				A65CDF7429315D780001B989 /* WeekDayHeaderView.swift in Sources */,
+				A6686DF92929A3B900641FB2 /* ContentView.swift in Sources */,
+				A6FA43752933E89B005D3E9C /* ChecklistWeekView.swift in Sources */,
+				A65CDF7229315BDF0001B989 /* WeekDayView.swift in Sources */,
+				A67D1EF62936ED5D0013A016 /* Day.swift in Sources */,
+				A6FA437D2933EEC0005D3E9C /* MonthLeftRightView.swift in Sources */,
+				A66D6D7629314D1A001EE84C /* DayViewHeader.swift in Sources */,
+				A6FA437F2933F0E1005D3E9C /* MonthDayView.swift in Sources */,
+				A6CF46C429358060004C08E3 /* NewSectionView.swift in Sources */,
+				A66D6D71293143D0001EE84C /* DayView.swift in Sources */,
+				A6FA43732933E7CD005D3E9C /* StarEditView.swift in Sources */,
+				A6FE4CEB294167AE00B0138D /* WeekdayColor.swift in Sources */,
+				A65CDF6F29315B0C0001B989 /* WeekView.swift in Sources */,
+				A6FA437B2933EB8E005D3E9C /* TimeEventWeekView.swift in Sources */,
+				A6FA43812933F338005D3E9C /* MonthHeaderView.swift in Sources */,
+				A6D2014C29465162007867A6 /* MonthColor.swift in Sources */,
+				A6FA436E2933E669005D3E9C /* ChecklistEventView.swift in Sources */,
+				A65CDF7B293167360001B989 /* WeekLeftRightView.swift in Sources */,
+				A6D4E6BB2940209D001C7B8A /* DeleteEventView.swift in Sources */,
+				A6686DF72929A3B900641FB2 /* PlannerApp.swift in Sources */,
+				A65CDF79293166040001B989 /* DayLeftRightView.swift in Sources */,
+				A61B6FCB293D4287007DBCD1 /* NewTimeItemView.swift in Sources */,
+				A61B6FC9293D35C0007DBCD1 /* NewChecklistItemView.swift in Sources */,
+				A6D2014929464E0B007867A6 /* MonthColorView.swift in Sources */,
+				A66D6D7929315085001EE84C /* MainTabView.swift in Sources */,
+				A6FA43712933E6F0005D3E9C /* ChecklistDayView.swift in Sources */,
+				A67D1EEF2936E7040013A016 /* Section.swift in Sources */,
+				A6FA43772933E947005D3E9C /* TimeEventView.swift in Sources */,
+				A67D1EF42936ED140013A016 /* PlannerData.swift in Sources */,
+				A67D1EF12936E7140013A016 /* SectionItem.swift in Sources */,
+				A6FA43792933E984005D3E9C /* TimeEventDayView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A6686DFF2929A3BC00641FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6686E002929A3BC00641FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6686E022929A3BC00641FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Planner/Preview Content\"";
+				DEVELOPMENT_TEAM = D4C9W8XB26;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jillianslater.Planner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6686E032929A3BC00641FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Planner/Preview Content\"";
+				DEVELOPMENT_TEAM = D4C9W8XB26;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jillianslater.Planner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6686DEE2929A3B900641FB2 /* Build configuration list for PBXProject "Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6686DFF2929A3BC00641FB2 /* Debug */,
+				A6686E002929A3BC00641FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6686E012929A3BC00641FB2 /* Build configuration list for PBXNativeTarget "Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6686E022929A3BC00641FB2 /* Debug */,
+				A6686E032929A3BC00641FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6686DEB2929A3B900641FB2 /* Project object */;
+}
